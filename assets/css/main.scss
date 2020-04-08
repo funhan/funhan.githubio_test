@@ -6,3 +6,22 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+
+// bold
+@font-face { 
+    font-family: "NanumBarunpen"; 
+    src: url('/assets/fonts/NanumBarunpenB.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+/*
+//regular
+@font-face { 
+    font-family: "NanumBarunpen"; 
+    src: url('/assets/fonts/NanumBarunpenR.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+*/

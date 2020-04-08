@@ -11,7 +11,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: $text-color;
+  color: $text-color;  
+  //font-family: "NanumBarunpenB";
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -29,6 +30,7 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
+  //font-family: "NanumBarunpenB";
   font-family: $header-font-family;
   font-weight: bold;
 }
@@ -126,6 +128,8 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none;
+
   &:focus {
     @extend %tab-focus;
   }
@@ -153,6 +157,7 @@ code,
 kbd,
 samp,
 pre {
+  //font-family: "NanumBarunpenB";
   font-family: $monospace;
 }
 
@@ -264,6 +269,7 @@ figure {
 figcaption {
   margin-bottom: 0.5em;
   color: $muted-text-color;
+  //font-family: "NanumBarunpenB";
   font-family: $caption-font-family;
   font-size: $type-size-6;
 
